@@ -1,3 +1,11 @@
+# Project:     git-committer
+# File name:   .gitignore
+# Purpose:     Configuration of project via cmake
+# Author:      Boris Boesler
+# Modified by:
+# Created:     13.06.2021
+# Copyright:   (c) 2021 Boris Boesler
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -9,3 +17,22 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+
+# build dirs and files
+build*/
+
+
+#
+# some platform dependent files
+#
+.history
+auto-run.sh
+
+# Mac files
+.DS_Store
+
+# all emacs backup files
+*~
+
+# end of file

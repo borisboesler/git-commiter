@@ -1,0 +1,16 @@
+/* hey emacs, this is a -*- c -*- file
+ * Project:     git-committer
+ * File name:   config.h.in
+ * Purpose:     access to current configuration
+ * Author:      Boris Boesler
+ * Modified by:
+ * Created:     13.06.2021
+ * Copyright:   (c) 2021 Boris Boesler
+ */
+
+#ifndef __GIT_COMMITTER_CONFIG_H__
+# define __GIT_COMMITTER_CONFIG_H__
+
+#cmakedefine GIT_COMMITTER_DEBUG
+
+#endif
